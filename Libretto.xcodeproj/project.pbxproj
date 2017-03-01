@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5141F401CA9CBA200C8F7B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5141F3F1CA9CBA200C8F7B2 /* AppDelegate.swift */; };
+		F5141F421CA9CBA200C8F7B2 /* EsamiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5141F411CA9CBA200C8F7B2 /* EsamiViewController.swift */; };
+		F5141F441CA9CBA200C8F7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5141F431CA9CBA200C8F7B2 /* Assets.xcassets */; };
+		F5141F521CA9CBA200C8F7B2 /* LibrettoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5141F511CA9CBA200C8F7B2 /* LibrettoTests.swift */; };
+		F5141F5D1CA9CBA200C8F7B2 /* LibrettoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5141F5C1CA9CBA200C8F7B2 /* LibrettoUITests.swift */; };
+		F55464171CB01A370085B819 /* ModificaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55464151CB01A370085B819 /* ModificaViewController.swift */; };
+		F559D88A1CAD844000811E70 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = F559D8891CAD844000811E70 /* Rules.swift */; };
+		F55BDFBB1CB002DD00C334BA /* infoBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F55BDFBA1CB002DD00C334BA /* infoBg.png */; };
+		F55BDFBE1CB0062F00C334BA /* addBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F55BDFBC1CB0062F00C334BA /* addBg.png */; };
+		F55BDFBF1CB0062F00C334BA /* addBgLode.png in Resources */ = {isa = PBXBuildFile; fileRef = F55BDFBD1CB0062F00C334BA /* addBgLode.png */; };
+		F560F5051CB15303006C6BC3 /* IpotizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F560F5041CB15303006C6BC3 /* IpotizzaViewController.swift */; };
+		F565E7151CAD9BD2001C8739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F565E7131CAD9BD2001C8739 /* Main.storyboard */; };
+		F56F67A71CAC1D1B0089064B /* Libretto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F67A61CAC1D1B0089064B /* Libretto.swift */; };
+		F571FCAA1CAFCC62005CA1CD /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = F571FCA91CAFCC62005CA1CD /* student.png */; };
+		F57D229D1CADDA9D001D309B /* ImpostazioniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57D229B1CADDA9D001D309B /* ImpostazioniViewController.swift */; };
+		F5890FE31CB40431002DF758 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5890FE11CB40431002DF758 /* GraphViewController.swift */; };
+		F5890FE71CB40515002DF758 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5890FE51CB40515002DF758 /* GraphView.swift */; };
+		F58B98A51CAABDE000ADBA5A /* Esame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58B98A41CAABDE000ADBA5A /* Esame.swift */; };
+		F59ABF961CB3E8D30099351F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59ABF951CB3E8D20099351F /* CoreGraphics.framework */; };
+		F5DF015D1CAD4FC800C6B7DF /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DF015B1CAD4FC800C6B7DF /* InfoViewController.swift */; };
+		F5F5B26D1CAFD66200EFF7F0 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F5B26C1CAFD66200EFF7F0 /* bg.jpg */; };
+		F5FEE0B71CAD52B0005DAA13 /* AggiungiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FEE0B61CAD52B0005DAA13 /* AggiungiViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5141F4E1CA9CBA200C8F7B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5141F341CA9CBA200C8F7B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5141F3B1CA9CBA200C8F7B2;
+			remoteInfo = Libretto;
+		};
+		F5141F591CA9CBA200C8F7B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5141F341CA9CBA200C8F7B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5141F3B1CA9CBA200C8F7B2;
+			remoteInfo = Libretto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5141F3C1CA9CBA200C8F7B2 /* Libretto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Libretto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5141F3F1CA9CBA200C8F7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5141F411CA9CBA200C8F7B2 /* EsamiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsamiViewController.swift; sourceTree = "<group>"; };
+		F5141F431CA9CBA200C8F7B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5141F481CA9CBA200C8F7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5141F4D1CA9CBA200C8F7B2 /* LibrettoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibrettoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5141F511CA9CBA200C8F7B2 /* LibrettoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrettoTests.swift; sourceTree = "<group>"; };
+		F5141F531CA9CBA200C8F7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5141F581CA9CBA200C8F7B2 /* LibrettoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibrettoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5141F5C1CA9CBA200C8F7B2 /* LibrettoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrettoUITests.swift; sourceTree = "<group>"; };
+		F5141F5E1CA9CBA200C8F7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55464151CB01A370085B819 /* ModificaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModificaViewController.swift; sourceTree = "<group>"; };
+		F559D8891CAD844000811E70 /* Rules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		F55BDFBA1CB002DD00C334BA /* infoBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoBg.png; sourceTree = "<group>"; };
+		F55BDFBC1CB0062F00C334BA /* addBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addBg.png; sourceTree = "<group>"; };
+		F55BDFBD1CB0062F00C334BA /* addBgLode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addBgLode.png; sourceTree = "<group>"; };
+		F560F5041CB15303006C6BC3 /* IpotizzaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IpotizzaViewController.swift; sourceTree = "<group>"; };
+		F565E7141CAD9BD2001C8739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56F67A61CAC1D1B0089064B /* Libretto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Libretto.swift; sourceTree = "<group>"; };
+		F571FCA91CAFCC62005CA1CD /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student.png; sourceTree = "<group>"; };
+		F57D229B1CADDA9D001D309B /* ImpostazioniViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpostazioniViewController.swift; sourceTree = "<group>"; };
+		F5890FE11CB40431002DF758 /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		F5890FE51CB40515002DF758 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		F58B98A41CAABDE000ADBA5A /* Esame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Esame.swift; sourceTree = "<group>"; };
+		F59ABF951CB3E8D20099351F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5DF015B1CAD4FC800C6B7DF /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		F5F5B26C1CAFD66200EFF7F0 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		F5FEE0B61CAD52B0005DAA13 /* AggiungiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AggiungiViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5141F391CA9CBA200C8F7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59ABF961CB3E8D30099351F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5141F4A1CA9CBA200C8F7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5141F551CA9CBA200C8F7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5141F331CA9CBA200C8F7B2 = {
+			isa = PBXGroup;
+			children = (
+				F59ABF951CB3E8D20099351F /* CoreGraphics.framework */,
+				F5141F3E1CA9CBA200C8F7B2 /* Libretto */,
+				F5141F501CA9CBA200C8F7B2 /* LibrettoTests */,
+				F5141F5B1CA9CBA200C8F7B2 /* LibrettoUITests */,
+				F5141F3D1CA9CBA200C8F7B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5141F3D1CA9CBA200C8F7B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5141F3C1CA9CBA200C8F7B2 /* Libretto.app */,
+				F5141F4D1CA9CBA200C8F7B2 /* LibrettoTests.xctest */,
+				F5141F581CA9CBA200C8F7B2 /* LibrettoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5141F3E1CA9CBA200C8F7B2 /* Libretto */ = {
+			isa = PBXGroup;
+			children = (
+				F5141F3F1CA9CBA200C8F7B2 /* AppDelegate.swift */,
+				F5141F431CA9CBA200C8F7B2 /* Assets.xcassets */,
+				F565E7131CAD9BD2001C8739 /* Main.storyboard */,
+				F5890FE51CB40515002DF758 /* GraphView.swift */,
+				F560F5041CB15303006C6BC3 /* IpotizzaViewController.swift */,
+				F5890FE11CB40431002DF758 /* GraphViewController.swift */,
+				F5FEE0B61CAD52B0005DAA13 /* AggiungiViewController.swift */,
+				F5141F411CA9CBA200C8F7B2 /* EsamiViewController.swift */,
+				F57D229B1CADDA9D001D309B /* ImpostazioniViewController.swift */,
+				F5DF015B1CAD4FC800C6B7DF /* InfoViewController.swift */,
+				F55464151CB01A370085B819 /* ModificaViewController.swift */,
+				F58B98A41CAABDE000ADBA5A /* Esame.swift */,
+				F56F67A61CAC1D1B0089064B /* Libretto.swift */,
+				F559D8891CAD844000811E70 /* Rules.swift */,
+				F5141F481CA9CBA200C8F7B2 /* Info.plist */,
+				F55BDFC01CB0063500C334BA /* images */,
+			);
+			path = Libretto;
+			sourceTree = "<group>";
+		};
+		F5141F501CA9CBA200C8F7B2 /* LibrettoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5141F511CA9CBA200C8F7B2 /* LibrettoTests.swift */,
+				F5141F531CA9CBA200C8F7B2 /* Info.plist */,
+			);
+			path = LibrettoTests;
+			sourceTree = "<group>";
+		};
+		F5141F5B1CA9CBA200C8F7B2 /* LibrettoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5141F5C1CA9CBA200C8F7B2 /* LibrettoUITests.swift */,
+				F5141F5E1CA9CBA200C8F7B2 /* Info.plist */,
+			);
+			path = LibrettoUITests;
+			sourceTree = "<group>";
+		};
+		F55BDFC01CB0063500C334BA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F571FCA91CAFCC62005CA1CD /* student.png */,
+				F5F5B26C1CAFD66200EFF7F0 /* bg.jpg */,
+				F55BDFBA1CB002DD00C334BA /* infoBg.png */,
+				F55BDFBC1CB0062F00C334BA /* addBg.png */,
+				F55BDFBD1CB0062F00C334BA /* addBgLode.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5141F3B1CA9CBA200C8F7B2 /* Libretto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5141F611CA9CBA200C8F7B2 /* Build configuration list for PBXNativeTarget "Libretto" */;
+			buildPhases = (
+				F5141F381CA9CBA200C8F7B2 /* Sources */,
+				F5141F391CA9CBA200C8F7B2 /* Frameworks */,
+				F5141F3A1CA9CBA200C8F7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Libretto;
+			productName = Libretto;
+			productReference = F5141F3C1CA9CBA200C8F7B2 /* Libretto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5141F4C1CA9CBA200C8F7B2 /* LibrettoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5141F641CA9CBA200C8F7B2 /* Build configuration list for PBXNativeTarget "LibrettoTests" */;
+			buildPhases = (
+				F5141F491CA9CBA200C8F7B2 /* Sources */,
+				F5141F4A1CA9CBA200C8F7B2 /* Frameworks */,
+				F5141F4B1CA9CBA200C8F7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5141F4F1CA9CBA200C8F7B2 /* PBXTargetDependency */,
+			);
+			name = LibrettoTests;
+			productName = LibrettoTests;
+			productReference = F5141F4D1CA9CBA200C8F7B2 /* LibrettoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5141F571CA9CBA200C8F7B2 /* LibrettoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5141F671CA9CBA200C8F7B2 /* Build configuration list for PBXNativeTarget "LibrettoUITests" */;
+			buildPhases = (
+				F5141F541CA9CBA200C8F7B2 /* Sources */,
+				F5141F551CA9CBA200C8F7B2 /* Frameworks */,
+				F5141F561CA9CBA200C8F7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5141F5A1CA9CBA200C8F7B2 /* PBXTargetDependency */,
+			);
+			name = LibrettoUITests;
+			productName = LibrettoUITests;
+			productReference = F5141F581CA9CBA200C8F7B2 /* LibrettoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5141F341CA9CBA200C8F7B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Adel;
+				TargetAttributes = {
+					F5141F3B1CA9CBA200C8F7B2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F5141F4C1CA9CBA200C8F7B2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F5141F3B1CA9CBA200C8F7B2;
+					};
+					F5141F571CA9CBA200C8F7B2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F5141F3B1CA9CBA200C8F7B2;
+					};
+				};
+			};
+			buildConfigurationList = F5141F371CA9CBA200C8F7B2 /* Build configuration list for PBXProject "Libretto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5141F331CA9CBA200C8F7B2;
+			productRefGroup = F5141F3D1CA9CBA200C8F7B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5141F3B1CA9CBA200C8F7B2 /* Libretto */,
+				F5141F4C1CA9CBA200C8F7B2 /* LibrettoTests */,
+				F5141F571CA9CBA200C8F7B2 /* LibrettoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5141F3A1CA9CBA200C8F7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55BDFBB1CB002DD00C334BA /* infoBg.png in Resources */,
+				F5141F441CA9CBA200C8F7B2 /* Assets.xcassets in Resources */,
+				F55BDFBE1CB0062F00C334BA /* addBg.png in Resources */,
+				F571FCAA1CAFCC62005CA1CD /* student.png in Resources */,
+				F5F5B26D1CAFD66200EFF7F0 /* bg.jpg in Resources */,
+				F565E7151CAD9BD2001C8739 /* Main.storyboard in Resources */,
+				F55BDFBF1CB0062F00C334BA /* addBgLode.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5141F4B1CA9CBA200C8F7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5141F561CA9CBA200C8F7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5141F381CA9CBA200C8F7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F560F5051CB15303006C6BC3 /* IpotizzaViewController.swift in Sources */,
+				F57D229D1CADDA9D001D309B /* ImpostazioniViewController.swift in Sources */,
+				F5141F421CA9CBA200C8F7B2 /* EsamiViewController.swift in Sources */,
+				F55464171CB01A370085B819 /* ModificaViewController.swift in Sources */,
+				F5141F401CA9CBA200C8F7B2 /* AppDelegate.swift in Sources */,
+				F56F67A71CAC1D1B0089064B /* Libretto.swift in Sources */,
+				F5FEE0B71CAD52B0005DAA13 /* AggiungiViewController.swift in Sources */,
+				F58B98A51CAABDE000ADBA5A /* Esame.swift in Sources */,
+				F5890FE31CB40431002DF758 /* GraphViewController.swift in Sources */,
+				F559D88A1CAD844000811E70 /* Rules.swift in Sources */,
+				F5DF015D1CAD4FC800C6B7DF /* InfoViewController.swift in Sources */,
+				F5890FE71CB40515002DF758 /* GraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5141F491CA9CBA200C8F7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5141F521CA9CBA200C8F7B2 /* LibrettoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5141F541CA9CBA200C8F7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5141F5D1CA9CBA200C8F7B2 /* LibrettoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5141F4F1CA9CBA200C8F7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5141F3B1CA9CBA200C8F7B2 /* Libretto */;
+			targetProxy = F5141F4E1CA9CBA200C8F7B2 /* PBXContainerItemProxy */;
+		};
+		F5141F5A1CA9CBA200C8F7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5141F3B1CA9CBA200C8F7B2 /* Libretto */;
+			targetProxy = F5141F591CA9CBA200C8F7B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F565E7131CAD9BD2001C8739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F565E7141CAD9BD2001C8739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5141F5F1CA9CBA200C8F7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5141F601CA9CBA200C8F7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F5141F621CA9CBA200C8F7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Libretto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = Adel.Libretto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5141F631CA9CBA200C8F7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Libretto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = Adel.Libretto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5141F651CA9CBA200C8F7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibrettoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Adel.LibrettoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Libretto.app/Contents/MacOS/Libretto";
+			};
+			name = Debug;
+		};
+		F5141F661CA9CBA200C8F7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibrettoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Adel.LibrettoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Libretto.app/Contents/MacOS/Libretto";
+			};
+			name = Release;
+		};
+		F5141F681CA9CBA200C8F7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibrettoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Adel.LibrettoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Libretto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5141F691CA9CBA200C8F7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibrettoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Adel.LibrettoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Libretto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5141F371CA9CBA200C8F7B2 /* Build configuration list for PBXProject "Libretto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5141F5F1CA9CBA200C8F7B2 /* Debug */,
+				F5141F601CA9CBA200C8F7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5141F611CA9CBA200C8F7B2 /* Build configuration list for PBXNativeTarget "Libretto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5141F621CA9CBA200C8F7B2 /* Debug */,
+				F5141F631CA9CBA200C8F7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5141F641CA9CBA200C8F7B2 /* Build configuration list for PBXNativeTarget "LibrettoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5141F651CA9CBA200C8F7B2 /* Debug */,
+				F5141F661CA9CBA200C8F7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5141F671CA9CBA200C8F7B2 /* Build configuration list for PBXNativeTarget "LibrettoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5141F681CA9CBA200C8F7B2 /* Debug */,
+				F5141F691CA9CBA200C8F7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5141F341CA9CBA200C8F7B2 /* Project object */;
+}
